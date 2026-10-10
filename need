@@ -1,0 +1,47 @@
+
+## 🚀 Getting Started
+
+### Prerequisites
+- MATLAB R2020b or later (with Simulink, Simscape Multibody)
+- ADAMS 2019 or later (optional, for advanced dynamics)
+
+### Quick Start
+1. Clone this repository
+2. Open `models/manipulator_7dof.slx` in Simulink
+3. Run `src/dynamics_parameters.m` to load parameters
+4. Simulate and visualize results
+
+## 📊 Key Results
+
+| Metric | Ground Simulation | On-Orbit Data | Error |
+|--------|-------------------|---------------|-------|
+| Capture time | 45.2 s | 46.1 s | 2.0% |
+| Joint torque peak | 127 Nm | 131 Nm | 3.1% |
+| End-effector position | [0.02, 0.01, 0.03] m | [0.03, 0.02, 0.02] m | <5% |
+
+## 🔗 Related Publications
+
+- Zhang W, et al. "Ground simulation research on the super large moment of inertia of the space transfer manipulator." *MATEC Web of Conferences*, 2018.
+- Zhang W, et al. "Research on Ground Zero Gravity of Space Manipulator." *Theory and Practice of Science and Technology*, 2018.
+
+## 📜 Patents
+
+- **CN202020090464.7**: Space Manipulator Ground Microgravity Simulation Device
+- **ZL202020963210.1**: Space Manipulator Moment of Inertia Ground Simulation Device
+
+## 👤 Author
+
+**Zhang Wei**  
+Lecturer, School of Mechanical and Vehicle Engineering, West Anhui University  
+ORCID: https://orcid.org/0009-0002-9919-0344  
+Email: 04000144@wxc.edu.cn
+
+## 📄 License
+
+MIT License - See LICENSE file for details
+
+## 🙏 Acknowledgments
+
+This work was supported by:
+- China Space Station Program (Ground Simulation System Development)
+- National Natural Science Foundation of China (Project: WXZR201902)
